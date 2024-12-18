@@ -1,93 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags for mobile responsiveness -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meymoona.ai - Coming Soon</title>
-    <!-- External CSS -->
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Background SVG for AI lines -->
-    <div class="background-lines">
-        <!--svg class="ai-lines-svg" width="100%" height="100%" preserveAspectRatio="none"></svg-->
-    </div>
-
-    <!-- Custom Cursor -->
+    <!-- Custom Cursor (Mouse-Following) -->
     <div class="custom-cursor"></div>
 
-    <!-- MAIN WRAPPER -->
-    <div class="container">
-        <!-- HERO SECTION -->
-        <header class="hero-section">
-            <!-- Image -->
-            <img src="assets/images/meymoona.jpg" alt="Meymoona AI Assistant" class="hero-image" />
+    <div class="main-container">
+        <!-- Left Column: Avatar -->
+        <div class="hero-image-container">
+            <img src="assets/images/meymoona.jpg" alt="Meymoona AI Assistant" class="hero-image">
+        </div>
 
-            <!-- Title with glitch effect -->
-            <h1 class="hero-title glitch" data-text="Meymoona.ai">Meymoona.ai</h1>
-            
-            <!-- Coming Soon with typewriter effect -->
-            <p class="coming-soon">Coming Soon</p>
-        </header>
+        <!-- Right Column: Title and Content -->
+        <div class="content-area">
+            <!-- Fixed Title -->
+            <div class="fixed-title-container">
+                <h1 class="hero-title glitch" data-text="Meymoona.ai">Meymoona.ai</h1>
+            </div>
 
-        <!-- CONTENT SECTION -->
-        <main class="content-section">
-            <!-- Introduction -->
-            <section class="intro">
-                <h2>1. Introduction</h2>
-                <p>
-                    Meymoona.ai is envisioned as a smart, multilingual, and highly customizable AI companion for retailers—a virtual business coach, data analyst, and growth strategist all wrapped into one engaging persona. This solution leverages advanced data science, business intelligence, and generative AI capabilities to help entrepreneurs and store owners gain meaningful insights, improve operational efficiencies, and drive sales growth. At its core, Meymoona isn’t just another dashboard. It’s a trusted ally that can hold a real-time video conversation, understand a retailer’s challenges, and deliver data-driven advice tailored to their specific context.
-                </p>
-            </section>
+            <!-- Scrollable Content -->
+            <div class="content-wrapper">
+                <main class="content-section">
+                    <!-- Introduction -->
+                    <section class="intro">
+                        <h2 class="streaming-text" data-text="1. Introduction"></h2>
+                        <p class="streaming-text" data-text="Meymoona.ai is envisioned as a smart, multilingual, and highly customizable AI companion for retailers—a virtual business coach, data analyst, and growth strategist all wrapped into one engaging persona. This solution leverages advanced data science, business intelligence, and generative AI capabilities to help entrepreneurs and store owners gain meaningful insights, improve operational efficiencies, and drive sales growth. At its core, Meymoona isn’t just another dashboard. It’s a trusted ally that can hold a real-time video conversation, understand a retailer’s challenges, and deliver data-driven advice tailored to their specific context."></p>
+                    </section>
 
-            <!-- Product Concept and Value Proposition -->
-            <section class="product-concept">
-                <h2>2. Product Concept and Value Proposition</h2>
+                    <!-- Product Concept and Value Proposition -->
+                    <section class="product-concept">
+                        <h2 class="streaming-text" data-text="2. Product Concept and Value Proposition"></h2>
 
-                <h3>Real-Time Video Interaction:</h3>
-                <p>
-                    Meymoona can engage in direct two-way video conversations. Instead of sifting through static reports, retailers can talk naturally to Meymoona, ask questions, and get immediate, relevant answers—just like consulting with a seasoned business advisor.
-                </p>
+                        <h3 class="streaming-text" data-text="Real-Time Video Interaction:"></h3>
+                        <p class="streaming-text" data-text="Meymoona can engage in direct two-way video conversations. Instead of sifting through static reports, retailers can talk naturally to Meymoona, ask questions, and get immediate, relevant answers—just like consulting with a seasoned business advisor."></p>
 
-                <h3>Multilingual and Cultural Adaptation:</h3>
-                <p>
-                    Whether the retailer speaks English, Arabic, French, Hindi, or any of 100+ languages, Meymoona adapts seamlessly. This ensures retailers across the globe feel comfortable engaging with their AI assistant, breaking down language barriers that often plague international analytics solutions.
-                </p>
+                        <h3 class="streaming-text" data-text="Multilingual and Cultural Adaptation:"></h3>
+                        <p class="streaming-text" data-text="Whether the retailer speaks English, Arabic, French, Hindi, or any of 100+ languages, Meymoona adapts seamlessly. This ensures retailers across the globe feel comfortable engaging with their AI assistant, breaking down language barriers that often plague international analytics solutions."></p>
 
-                <h3>Data Science and Predictive Analytics:</h3>
-                <p>
-                    Meymoona’s intelligence goes beyond mere reporting. It identifies patterns in sales data, forecasts future trends, and offers predictive insights—everything from anticipating seasonal stock requirements to predicting the impact of a promotional campaign. Imagine being able to ask, “How might next month’s sales look if I run a 20% off clearance?” and getting an instant answer grounded in historical data and predictive modeling.
-                </p>
+                        <h3 class="streaming-text" data-text="Data Science and Predictive Analytics:"></h3>
+                        <p class="streaming-text" data-text="Meymoona’s intelligence goes beyond mere reporting. It identifies patterns in sales data, forecasts future trends, and offers predictive insights—everything from anticipating seasonal stock requirements to predicting the impact of a promotional campaign. Imagine being able to ask, “How might next month’s sales look if I run a 20% off clearance?” and getting an instant answer grounded in historical data and predictive modeling."></p>
 
-                <h3>Customizable Persona and Conversation Style:</h3>
-                <p>
-                    Retailers can tailor Meymoona’s personality and conversation temperature. Feeling stressed and needing a friendly, encouraging presence? Switch to “relaxed Meymoona.” Want a more direct, tough-love approach? Choose “assertive Meymoona.” Seeking some light-hearted banter? “Flirty Meymoona” is at your service. The ability to set the tone ensures retailers have an assistant that matches their current mood and communication preference.
-                </p>
+                        <h3 class="streaming-text" data-text="Customizable Persona and Conversation Style:"></h3>
+                        <p class="streaming-text" data-text="Retailers can tailor Meymoona’s personality and conversation temperature. Feeling stressed and needing a friendly, encouraging presence? Switch to “relaxed Meymoona.” Want a more direct, tough-love approach? Choose “assertive Meymoona.” Seeking some light-hearted banter? “Flirty Meymoona” is at your service. The ability to set the tone ensures retailers have an assistant that matches their current mood and communication preference."></p>
 
-                <h3>From Data to Insights to Action:</h3>
-                <p>
-                    Meymoona’s capability isn’t static. By integrating with iPOS (and in the future, other systems), it knows a business inside and out. It can make tailored recommendations—like which underperforming SKUs to phase out, which top sellers warrant deeper investment, or which marketing channels are bringing the highest ROI. It acts as both a strategic consultant and a tactical coach, guiding owners through the steps needed to execute improvements.
-                </p>
-            </section>
+                        <h3 class="streaming-text" data-text="From Data to Insights to Action:"></h3>
+                        <p class="streaming-text" data-text="Meymoona’s capability isn’t static. By integrating with iPOS (and in the future, other systems), it knows a business inside and out. It can make tailored recommendations—like which underperforming SKUs to phase out, which top sellers warrant deeper investment, or which marketing channels are bringing the highest ROI. It acts as both a strategic consultant and a tactical coach, guiding owners through the steps needed to execute improvements."></p>
+                    </section>
 
-            <!-- Placeholder for future content or sign-up form -->
-            <section class="cta-section">
-                <p>Stay tuned for more updates and get ready to revolutionize your retail experience with Meymoona.ai!</p>
-            </section>
-        </main>
+                    <!-- CTA SECTION -->
+                    <section class="cta-section">
+                        <p class="streaming-text" data-text="Stay tuned for more updates and get ready to revolutionize your retail experience with Meymoona.ai!"></p>
+                    </section>
+
+                    <!-- FOOTER -->
+                    <footer class="footer">
+                        <p class="streaming-text" data-text="© 2024 Meymoona.ai"></p>
+                    </footer>
+                </main>
+            </div>
+        </div>
     </div>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <p>&copy; 2024 Meymoona.ai</p>
-    </footer>
 
     <!-- External JS -->
     <script src="scripts/script.js"></script>
